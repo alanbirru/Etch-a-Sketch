@@ -1,0 +1,13 @@
+.rows {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
