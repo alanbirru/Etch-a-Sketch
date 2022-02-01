@@ -3,7 +3,7 @@ let size = 16;
 let color = "black";
 
 function makeGrid() {
-  container.style.border = "solid 5px black";
+  // container.style.border = "solid 5px black";
   for (let i = 0; i < size; i++) {
     let rows = document.createElement("div");
     rows.classList.add("rows");
