@@ -13,3 +13,40 @@
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
+h1.title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 55px;
+
+  font-family: "Inter", sans-serif;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  flex-direction: row;
+}
+
+.buttons button {
+  padding: 30px;
+  border-radius: 10px;
+  width: 150px;
+  background-color: rgba(115, 224, 238, 0);
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button:hover {
+  background-color: rgba(128, 128, 128, 0.103);
+}
