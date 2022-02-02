@@ -4,7 +4,7 @@ let rgbButton = document.querySelector(".rgb");
 let clearButton = document.querySelector(".clear");
 let sizeButton = document.querySelector(".size");
 let blackButton = document.querySelector(".black");
-let size = prompt("Choose grid size between 1-100");
+let size = prompt("Choose grid size between 1-100", "16");
 let color = "black";
 
 if (size > 100 || size <= 0) {
